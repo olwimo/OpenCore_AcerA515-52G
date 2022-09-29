@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.AnV_Software.driver.CSRAppleBluetooth</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>CSRAppleBluetooth</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>8.8.8</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>Fake Apple CSR Bluetooth Device</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>USB Product Name</key>
+				<string>Bluetooth USB Host Controller</string>
+				<key>USB Vendor Name</key>
+				<string>Apple Inc.</string>
+				<key>non-removable</key>
+				<string>yes</string>
+				<key>bcdDevice</key>
+				<integer>6501</integer>
+				<key>bDeviceClass</key>
+				<integer>224</integer>
+				<key>bDeviceSubClass</key>
+				<integer>1</integer>
+				<key>idVendor</key>
+				<integer>1452</integer>
+				<key>sessionID</key>
+				<integer>8349552325</integer>
+				<key>idProduct</key>
+				<integer>33286</integer>
+				<key>bDeviceProtocol</key>
+				<integer>1</integer>
+				<key>iSerialNumber</key>
+				<integer>0</integer>
+				<key>iProduct</key>
+				<integer>0</integer>
+				<key>Low Power Displayed</key>
+				<false/>
+				<key>Requested Power</key>
+				<integer>0</integer>
+				<key>kCallInterfaceCloseWithGate</key>
+				<true/>
+			</dict>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>2578</integer>
+		</dict>
+		<key>Fake Apple CSR Bluetooth Interface</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>idProduct</key>
+				<integer>33286</integer>
+				<key>idVendor</key>
+				<integer>1452</integer>
+				<key>bcdDevice</key>
+				<integer>6501</integer>
+			</dict>
+			<key>bConfigurationValue</key>
+			<string>*</string>
+			<key>bInterfaceNumber</key>
+			<string>*</string>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>2578</integer>
+		</dict>
+		<key>Fake Apple CSR Bluetooth Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IOProviderClass</key>
+			<string>CSRUSBBluetoothHCIController</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>AllowedIncomingRFCOMMChannelSettings</key>
+				<array>
+					<dict>
+						<key>ChannelIsSecure</key>
+						<integer>0</integer>
+						<key>ChannelNumber</key>
+						<integer>3</integer>
+					</dict>
+				</array>
+				<key>WakeOnBTEnabled</key>
+				<true/>
+				<key>ConfigState</key>
+				<integer>0</integer>
+				<key>IOProviderMergeProperties</key>
+				<dict>
+					<key>ClassicMustNotSeize</key>
+					<true/>
+				</dict>
+				<key>idProduct</key>
+				<integer>33286</integer>
+				<key>HCISupportedFeatures</key>
+				<data>gAD5m/6P//8=</data>
+				<key>HCIControllerPowerIsOn</key>
+				<true/>
+				<key>FeatureFlags</key>
+				<integer>2</integer>
+				<key>USB Product Name</key>
+				<string>Bluetooth USB Host Controller</string>
+				<key>FirmwareVersionString</key>
+				<string>v1965</string>
+				<key>PowerOptions</key>
+				<integer>15</integer>
+				<key>AFHMappedChannel</key>
+				<string>(11)</string>
+				<key>FirmwareVersion</key>
+				<data>rQcAAMDU8gNA1PIDwNLyAw==</data>
+				<key>RFCOMMDefaultChannelSettings</key>
+				<dict>
+					<key>DefaultCreditBasedFlowcontrol</key>
+					<true/>
+					<key>DefaultFlowcontrolWithFCONFCOFF</key>
+					<false/>
+				</dict>
+				<key>RunInactivityTimer</key>
+				<integer>1</integer>
+				<key>USB Vendor Name</key>
+				<string>Apple Inc.</string>
+				<key>non-removable</key>
+				<string>yes</string>
+				<key>bcdDevice</key>
+				<integer>6501</integer>
+				<key>bDeviceClass</key>
+				<integer>224</integer>
+				<key>bDeviceSubClass</key>
+				<integer>1</integer>
+				<key>idVendor</key>
+				<integer>1452</integer>
+				<key>sessionID</key>
+				<integer>8349552325</integer>
+				<key>bDeviceProtocol</key>
+				<integer>1</integer>
+				<key>iSerialNumber</key>
+				<integer>0</integer>
+				<key>iProduct</key>
+				<integer>0</integer>
+				<key>Low Power Displayed</key>
+				<false/>
+				<key>Requested Power</key>
+				<integer>0</integer>
+				<key>kCallInterfaceCloseWithGate</key>
+				<true/>
+			</dict>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>2578</integer>
+		</dict>
+		<key>AppleIntegratedModule</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.CSRBluetoothHostControllerUSBTransport</string>
+			<key>IOClass</key>
+			<string>CSRBluetoothHostControllerUSBTransport</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBDevice</string>
+			<key>idProduct</key>
+			<integer>1</integer>
+			<key>idVendor</key>
+			<integer>2578</integer>
+		</dict>
+	</dict>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
